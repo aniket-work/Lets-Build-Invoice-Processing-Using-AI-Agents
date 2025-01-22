@@ -1,0 +1,22 @@
+invoicesense/
+├── config/
+│   ├── __init__.py
+│   ├── config.yaml
+│   └── settings.py
+├── static/
+│   ├── __init__.py
+│   ├── css/
+│   │   └── style.css
+│   └── constants.py
+├── utils/
+│   ├── __init__.py
+│   ├── image_processing.py
+│   └── invoice_analyzer.py
+├── components/
+│   ├── __init__.py
+│   ├── header.py
+│   ├── upload_section.py
+│   └── results_section.py
+├── __init__.py
+├── app.py
+└── requirements.txt

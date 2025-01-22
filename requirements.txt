@@ -1,0 +1,6 @@
+streamlit
+ollama
+reportlab
+pillow
+PyYAML
+python-dotenv

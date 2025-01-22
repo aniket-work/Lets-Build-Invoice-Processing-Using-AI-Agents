@@ -1,0 +1,36 @@
+app:
+  page_title: "InvoiceSense AI"
+  page_icon: "📄"
+  layout: "wide"
+  initial_sidebar_state: "collapsed"
+
+company:
+  name: "InvoiceSense AI"
+  tagline: "Professional Invoice Processing Solution"
+  copyright: "© 2025 InvoiceSense AI | Enterprise Invoice Processing"
+
+upload:
+  allowed_types: ["png", "jpg", "jpeg", "pdf"]
+  max_size_mb: 20
+  help_text: "Supported formats: PNG, JPG, JPEG, PDF (max 20MB)"
+
+model:
+  name: "llama3.2-vision"
+  prompt: |
+    Extract and format the following in clear markdown:
+    - Invoice number and date
+    - Company details
+    - Items and amounts
+    - Total and taxes
+    - Payment terms
+
+theme:
+  colors:
+    primary: "#3b82f6"
+    primary_hover: "#2563eb"
+    background: "#0f172a"
+    card_bg: "#1e293b"
+    border: "#475569"
+    text: "#e2e8f0"
+    text_secondary: "#cbd5e1"
+    text_muted: "#94a3b8"
